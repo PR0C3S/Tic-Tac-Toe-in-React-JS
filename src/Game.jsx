@@ -192,7 +192,7 @@ export default function Game() {
             </Grid>
           )}
           <Grid item container justifyContent={"space-evenly"} spacing={1}>
-            <Grid item xs={4}>
+            <Grid item>
               <Button
                 variant={"outlined"}
                 onClick={handlePlayAgain}
@@ -202,7 +202,7 @@ export default function Game() {
                 Play again
               </Button>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item>
               <Button
                 variant={"outlined"}
                 onClick={handleReset}
@@ -212,7 +212,7 @@ export default function Game() {
                 Reset game
               </Button>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item>
               <Button
                 variant={"outlined"}
                 onClick={handleGoHome}

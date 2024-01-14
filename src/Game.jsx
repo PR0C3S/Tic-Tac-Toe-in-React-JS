@@ -128,7 +128,7 @@ export default function Game() {
       </Grid>
 
       <Grid item container spacing={1} xs={12} mt={1}>
-        <Table>
+        <Table xs={12}>
           <TableBody>
             <TableRow>
               <Square text={board.at(0)} onClick={() => handleUpdateBoard(0)} />
